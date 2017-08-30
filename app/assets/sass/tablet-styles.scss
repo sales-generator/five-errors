@@ -1,0 +1,129 @@
+@media screen and (min-width: 901px) and (max-width: 1024px){
+  .btn--callback {
+    flex: 7 1%;
+  }
+  .header {
+    &-content-background{
+      background: url("../images/fon.jpg") no-repeat 100% 50%;
+      background-size: cover;
+      position: static;
+      left: auto;
+      top: auto;
+      right: auto;
+      bottom: auto;
+    }
+    &__content {
+      .btn {
+        padding: 30px 30px;
+      }
+    }
+  }
+}
+/*@media screen and (min-width: 502px) and (max-width: 767px) {
+  .container__nav {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .nav__title {
+    flex: 1 20%;
+  }
+}*/
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+  .btn--callback{
+    margin-left: 0px;
+    width: 50%;
+    flex: none;
+  }
+  .nav{
+    flex-flow: row wrap;
+    justify-content: center;
+    &__tel{
+      margin: 10px 0 0 0;
+      width: 50%;
+      text-align: left;
+      padding-left: 5px;
+    }
+    &__title{
+      text-align: center;
+      width: 50%;
+      margin-left: auto;
+      display: block;
+      flex: 1 20%;
+    }
+    &__logo{
+      width: 50%;
+      img{
+        display: block;
+        margin: auto;
+      }
+    }
+  }
+
+  .header{
+    &__content{
+      padding: 20px 0 100px 0;
+      .btn {
+        padding: 10px 0!important;
+        font-size: 18px;
+      }
+      &-title{
+        font-size: 18px;
+        line-height: 40px;
+        margin-top: -15px;
+        margin-bottom: -25px;
+        span {
+          font-size: 40px;
+        }
+      }
+      &-text{
+        font-size: 14px;
+      }
+      &-item {
+        img {
+          width: 200px;
+          height: 280px;
+        }
+      }
+      .title-h2 {
+        font-size: 18px;
+        margin-bottom: 0;
+      }
+      &-form {
+        width: 320px;
+        margin-top: 20px;
+      }
+    }
+    &-content-background{
+      background: url("../images/fon.jpg") no-repeat 100% 50%;
+      background-size: cover;
+      position: static;
+      left: auto;
+      top: auto;
+      right: auto;
+      bottom: auto;
+    }
+  }
+  .free-form input[type=email] {
+    padding: 20px 12px;
+  }
+  .popup-overlay .popup-form{
+    width: 70%;
+  }
+  .popup-slider-overlay{
+    .popup-slider{
+      width: 75%;
+    }
+  }
+  .popup-overlay .popup-fullcase{
+    width: 79%;
+    &__close{
+      font-size: 35px;
+    }
+  }
+  .footer{
+    .top-button-block{
+      bottom: 40px;
+    }
+  }
+}

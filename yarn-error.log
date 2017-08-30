@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\1\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\1\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\1\bin;C:\Program Files\nodejs;C:\Program Files (x86)\Skype\Phone;C:\Program Files\nodejs;C:\Users\1\AppData\Local\atom\bin;C:\Users\1\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  0.21.3
+
+Node version: 
+  7.7.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: write EPIPE
+      at exports._errnoException (util.js:1029:11)
+      at Socket._writeGeneric (net.js:718:26)
+      at Socket._write (net.js:737:8)
+      at doWrite (_stream_writable.js:329:12)
+      at writeOrBuffer (_stream_writable.js:315:5)
+      at Socket.Writable.write (_stream_writable.js:241:11)
+      at Socket.write (net.js:664:40)
+      at ConsoleReporter._log (C:\Users\1\AppData\Roaming\npm\node_modules\yarn\lib\reporters\console\console-reporter.js:170:17)
+      at ConsoleReporter.log (C:\Users\1\AppData\Roaming\npm\node_modules\yarn\lib\reporters\console\console-reporter.js:165:10)
+      at ConsoleReporter.step (C:\Users\1\AppData\Roaming\npm\node_modules\yarn\lib\reporters\console\console-reporter.js:118:10)

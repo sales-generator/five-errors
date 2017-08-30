@@ -1,0 +1,93 @@
+$header-text-color: rgb(255, 255, 255);
+
+.header{
+  background-color: rgb(25, 25, 25);
+  position: relative;
+  font-family: $headers-font-bold;
+  &__content{
+    padding: 50px 0 0 0;
+    display: flex;
+    &-item {
+      width: 60%;
+      &:first-child {
+        width: 40%;
+        text-align: center;
+      }
+      img {
+        width: 310px;
+        height: 400px;
+      }
+    }
+    .btn {
+      margin: 20px 0 0 0;
+      font-family: $headers-font-regular;
+      padding: 14px 60px!important;
+      font-size: 22px;
+      border-radius: 15px;
+      background-color: rgb(32, 203, 111);
+      width: 96%;
+    }
+    .title-h2 {
+      margin-bottom: 30px;
+      font-family: $primary-font;
+      font-weight: 500;
+      span {
+        color: #21cf73;
+        font-family: $headers-font-italic;
+        font-size: 24px;
+      }
+    }
+    &-title{
+      font-size: 30px;
+      text-transform: uppercase;
+      color: #21cf73;
+      margin-top: -40px;
+      margin-bottom: -20px;
+      span{
+        color: rgb(33, 207, 115);
+        font-size: 72px;
+      }
+    }
+    &-text{
+      font-size: 16px;
+      font-family: $headers-font-regular;
+    }
+    &-confirm {
+      width: 330px;
+      margin: auto;
+      font-size: 12px;
+      font-family: $headers-font-regular;
+    }
+    &-form {
+      width: 370px;
+    }
+  }
+}
+
+
+.content{
+  &--background{
+    /*background-color: rgba(0, 0, 0, 0.860784);*/
+  }
+}
+
+.header-content-background{
+  background-image: url("../images/fon.jpg");
+  background-repeat: no-repeat;
+  color: $header-text-color;
+  background-color: black;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.btn__header {
+  background-color: transparent!important;
+  &:hover {
+    background-color: #4db45d!important;
+    color: #fff!important;
+  }
+}
+

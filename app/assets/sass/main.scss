@@ -1,0 +1,24 @@
+@media screen and (min-width: 1601px){
+  .header{
+    &__content{
+      padding: 150px 0 208px 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px){
+  .header{
+    &__content{
+      padding: 130px 0 205px 0;
+    }
+  }
+  .header-content-background{
+    background-position: 93% 80%;
+    background-size: 100% 100%!important;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
