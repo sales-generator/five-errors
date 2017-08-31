@@ -92,7 +92,7 @@
 
   @each $input in (text, button, email){
     input[type="#{$input}"]{
-      padding: 27px 12px;
+      padding: 30px 12px;
       border-radius: 10px;
       line-height: 20px;
     }
