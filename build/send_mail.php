@@ -13,7 +13,7 @@ require ('./phpmailer/PHPMailerAutoload.php');
 
  $mail->From = 'pashebor@mail.ru';
  $mail->FromName = 'Генератор продаж';
- $mail->addAddress('pashebor@gmail.com', 'Генератор продаж');
+ /*$mail->addAddress('pashebor@gmail.com', 'Генератор продаж');*/
  $mail->addAddress('info@salesgenerator.pro', 'Генератор продаж');
  $mail->addAddress('pm@salesgenerator.pro', 'Генератор продаж');
  $mail->addAddress('vip@salesgenerator.pro', 'Генератор продаж');
