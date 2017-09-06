@@ -43,7 +43,7 @@ class HeaderContent extends Component{
                         <NavBar/>
                         <div className="container header__content">
                             <div className="header__content-item">
-                                <img src="images/check-list2.png" alt="Заказать чек-лист: Генератор продаж" title="Заказать чек-лист: Генератор продаж"/>
+                                <img src="images/best-sale.png" alt="Заказать чек-лист: Генератор продаж" title="Заказать чек-лист: Генератор продаж"/>
                             </div>
                             <div className="header__content-item">
                                 <h1 className="header__content-title">

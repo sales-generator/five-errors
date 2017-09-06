@@ -1600,7 +1600,9 @@ pre code {
 @media (min-width: 1200px) {
   .container {
     /*width: 1170px;*/
-    width: 1200px;
+    /*width: 1200px;*/
+    /*width: 970px;*/
+    width: 1100px;
   }
 }
 .container-fluid {
@@ -2572,14 +2574,26 @@ output {
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
 }
 .form-control::-moz-placeholder {
-  color: #999;
+  color: #d4d4d4;
   opacity: 1;
+  font-size: 24px;
+  font-family: OpenSansRegular;
+  padding-left: 10px;
+  padding-top: 20px;
 }
 .form-control:-ms-input-placeholder {
-  color: #999;
+  color: #D4D4D4;
+  font-size: 24px;
+  font-family: OpenSansRegular;
+  padding-left: 10px;
+  padding-top: 20px;
 }
 .form-control::-webkit-input-placeholder {
-  color: #999;
+  color: #D4D4D4;
+  font-size: 24px;
+  font-family: OpenSansRegular;
+  padding-left: 10px;
+  padding-top: 20px;
 }
 .form-control::-ms-expand {
   background-color: transparent;
