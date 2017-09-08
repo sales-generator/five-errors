@@ -1,16 +1,43 @@
 @media screen and (min-width: 1601px){
   .header{
     &__content{
-      padding: 120px 0 80px 0;
+      padding: 100px 0 80px 0;
     }
   }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1600px){
+@media screen and (min-width: 1367px) and (max-width: 1600px){
   .header{
     &__content{
       /*padding: 130px 0 205px 0;*/
     }
+  }
+  .header-content-background{
+    background-position: 93% 80%;
+    background-size: 100% 100%!important;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1366px){
+  .header{
+    &__content{
+      padding: 20px 0 50px 0;
+      &-item img {
+        width: 400px;
+        height: 490px;
+      }
+      .title-h2 {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .nav{
+    padding: 5px 0 0 0;
   }
   .header-content-background{
     background-position: 93% 80%;

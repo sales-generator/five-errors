@@ -147,6 +147,55 @@
 }
 /**********/
 
+.likes {
+  display: flex;
+  flex-direction: row;
+  margin-left: -18px;
+  margin-top: 20px;
+  div {
+    margin-left: 11px;
+    div {
+      width: 60px!important;
+      /*height: 32px!important;*/
+      background-color: white;
+      border-radius: 5px;
+      &:active {
+        outline: none;
+      }
+    }
+  }
+}
+div[role="button"] {
+  outline: none!important;
+}
+.social-icon {
+  border-radius: 5px;
+  &:hover {
+    outline: 1px solid #0731e2 !important;
+  }
+  &--facebook {
+     background: #3B5998!important;
+     width: 60px!important;
+   }
+  &--vk {
+    background: #45668E!important;
+    width: 60px!important;
+    }
+  &--ok {
+    background: #F2720C!important;
+    width: 60px!important;
+  }
+  &--twitter {
+    background: #00ACED!important;
+    width: 60px!important;
+  }
+  &--google {
+    background: #DD4B39!important;
+    width: 60px!important;
+  }
+}
+
+
 @keyframes freeNotifAnimation {
   from{opacity: 0; height: 0px;}
   to {opacity: 1; height: auto;}

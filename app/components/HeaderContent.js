@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import {sendClientsCallback} from '../actions/index';
 import { bindActionCreators } from 'redux';
 import NavBar from './NavBar.jsx';
+import SocialLikes from './SocialLikes'
 
 class HeaderContent extends Component{
 
@@ -70,9 +71,17 @@ class HeaderContent extends Component{
                                         Нажимая кнопку "Получить бесплатно", я даю свое
                                         согласие на обработку моих персональных данных
                                     </p>
+                                    <SocialLikes/>
                                 </div>
                             </div>
-
+                            {/*<div className="social-likes">
+                                <div className="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
+                                <div className="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
+                                <div className="mailru" title="Поделиться ссылкой в Моём мире">Мой мир</div>
+                                <div className="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
+                                <div className="odnoklassniki" title="Поделиться ссылкой в Одноклассниках">Одноклассники</div>
+                                <div className="plusone" title="Поделиться ссылкой в Гугл-плюсе">Google+</div>
+                            </div>*/}
                         </div>
                     </div>
                 </section>

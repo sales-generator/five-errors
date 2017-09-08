@@ -200,4 +200,15 @@
   .footer__logo {
     text-align: center;
   }
+  .likes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    div {
+      margin-left: 8px;
+    }
+  }
+  div[role="button"] {
+    margin-bottom: 10px;
+  }
 }

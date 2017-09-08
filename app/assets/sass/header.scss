@@ -5,18 +5,18 @@ $header-text-color: rgb(255, 255, 255);
   position: relative;
   font-family: $headers-font-bold;
   &__content{
-    padding: 50px 0 0 0;
+    padding: 10px 0 0 0;
     display: flex;
     &-item {
       width: 50%;
       &:first-child {
         width: 40%;
         text-align: center;
-        margin-right: 10%;
+        margin-right: 15%;
       }
       img {
-        width: 420px;
-        height: 510px;
+        width: 440px;
+        height: 580px;
       }
     }
     .btn {
@@ -30,13 +30,13 @@ $header-text-color: rgb(255, 255, 255);
     }
     .title-h2 {
       margin-bottom: 40px;
-      font-family: $primary-font;
+      font-family: $headers-font-regular;
       font-weight: 500;
       font-size: 24px;
       span {
         color: #21cf73;
-        font-family: $headers-font-italic;
-        font-size: 28px;
+        font-family: $headers-font-regular;
+        font-size: 27px;
       }
     }
     &-title{
@@ -52,8 +52,9 @@ $header-text-color: rgb(255, 255, 255);
     }
     &-text {
       font-size: 22px;
-      font-family: $headers-font-regular;
+      font-family: $primary-font;
       margin-bottom: 20px;
+      font-style: italic;
     }
     &-confirm {
       font-size: 18px;
@@ -73,7 +74,7 @@ $header-text-color: rgb(255, 255, 255);
 }
 
 .header-content-background{
-  background-image: url("../images/fon.jpg");
+  background-image: url("../images/fon-first-min.png");
   background-repeat: no-repeat;
   color: $header-text-color;
   background-color: black;
